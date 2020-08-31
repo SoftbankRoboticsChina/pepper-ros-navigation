@@ -25,7 +25,7 @@ obstacle_layer:
   observation_sources:  scan scan2
   scan:
     data_type: LaserScan
-    topic: /pepper_robot/laser #scan or /scan?
+    topic: /pepper_robot/naoqi_driver/laser #scan or /scan?
     marking: true
     clearing: true
     min_obstacle_height: -1.5 #scan data's real frame is head but it is broadcasted as base_link.
@@ -33,7 +33,7 @@ obstacle_layer:
 
   scan2:
     data_type: LaserScan
-    topic: pepper_robot/laser #scan or /scan?
+    topic: /pepper_robot/naoqi_driver/laser #scan or /scan?
     marking: true
     clearing: true
     min_obstacle_height: 0.3 #scan data's real frame is head but it is broadcasted as base_link.

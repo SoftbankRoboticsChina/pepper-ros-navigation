@@ -1,7 +1,7 @@
 <launch>
   <arg name="use_map_topic"   default="true"/>
   <arg name="first_map_only"   default="false"/>
-  <arg name="scan_topic"      default="/pepper_robot/laser"/> 
+  <arg name="scan_topic"      default="/pepper_robot/naoqi_driver/laser"/> 
   <arg name="initial_pose_x"  default="0.0"/>
   <arg name="initial_pose_y"  default="0.0"/>
   <arg name="initial_pose_a"  default="0.0"/>

@@ -26,7 +26,7 @@ obstacle_layer:
   observation_sources:  scan scanp  # 代价地图需要关注的所有传感器信息，每一个传感器信息都将在后边列出详细信息。
   scan:
     data_type: LaserScan
-    topic: /pepper_robot/laser #scan or /scan?
+    topic: /pepper_robot/naoqi_driver/laser #scan or /scan?
     marking: true # marking和clearing是否需要使用传感器的实时信息来添加或清除代价地图中的障碍物信息
 # 可以设置只让上面的scan进行marking和clearing，下面的只用导航
     clearing: true
@@ -35,7 +35,7 @@ obstacle_layer:
 
   scanp:
     data_type: LaserScan
-    topic: /pepper_robot/laser
+    topic: /pepper_robot/naoqi_driver/laser
     marking: true
     clearing: true
     min_obstacle_height: 0.25
