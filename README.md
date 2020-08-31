@@ -87,7 +87,7 @@ sudo apt-get update
 ```
 
 ## 3.3 安装ROS
-*如需参考ROS官方文档：http://wiki.ros.org/kinetic/Installation/Ubuntu，请从1.4章节开始阅读。*
+*如需参考ROS官方文档：http://wiki.ros.org/kinetic/Installation/Ubuntu ,请从1.4章节开始阅读。*
 ```bash
 sudo apt-get install ros-kinetic-desktop
 sudo apt-get install ros-kinetic-driver-base ros-kinetic-move-base-msgs ros-kinetic-octomap ros-kinetic-octomap-msgs ros-kinetic-humanoid-msgs ros-kinetic-humanoid-nav-msgs ros-kinetic-camera-info-manager ros-kinetic-camera-info-manager-py ros-kinetic-map-server
