@@ -221,7 +221,9 @@ roslaunch pepper-ros-navigation navigation.launch map_file:=/tmp/my_map
 ```
 rostopic echo /move_base_simple/goal
 ```
-此时，当在使用7.2的移动功能时，会在这个窗口里打印目标点的坐标。可以将此坐标记录下来，便于之后使用Python编程实现Pepper移动。
+此时，当在使用7.2的移动功能时，会在这个窗口里打印目标点的坐标，如下图。可以将此坐标记录下来，便于之后使用Python编程实现Pepper移动。
+
+![move_base goal](./img/move_goal.png)
 
 ### 7.4 使用Python控制Pepper移动到指定目标点
 本操作依赖于7.1，具体步骤待补充。
