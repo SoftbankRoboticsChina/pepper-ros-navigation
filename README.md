@@ -201,7 +201,9 @@ rosrun map_server map_saver -f <保存路径如:/tmp/my_map>
 
 
 
-## 7. 导航
+## 7. 导航(更新中)
+
+导航部分当前存在问题：No transform from [map] to [base_footprint], 待解决。
 
 ### 7.1 启动Navigation launch
 请先执行5.2连接Pepper。
@@ -223,6 +225,5 @@ rostopic echo /move_base_simple/goal
 
 ### 7.4 使用Python控制Pepper移动到指定目标点
 本操作依赖于7.1，具体步骤待补充。
-### 存在问题：
-No transform from [map] to [base_footprint]
+
 
