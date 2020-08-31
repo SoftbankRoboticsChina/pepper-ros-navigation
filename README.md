@@ -223,6 +223,6 @@ rostopic echo /move_base_simple/goal
 
 ### 7.4 使用Python控制Pepper移动到指定目标点
 本操作依赖于7.1，具体步骤待补充。
-###存在问题：
+### 存在问题：
 No transform from [map] to [base_footprint]
 
