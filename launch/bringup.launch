@@ -1,0 +1,19 @@
+<launch>
+
+  <param name="/use_sim_time" value="false" />
+  <arg name="nao_ip"              default="$(optenv NAO_IP 192.168.3.12)" />
+  <arg name="nao_port"            default="$(optenv NAO_PORT 9559)" />
+  <arg name="scan_topic" default="scan"/>
+  <arg name="roscore_ip"          default="127.0.0.1" />
+  <arg name="network_interface"   default="wlp2s0" /><!--wlp2s0-->
+
+  <!-- pepper_full bringup-->
+  <include file="$(find pepper_bringup)/launch/pepper_full.launch">
+
+    <arg name="nao_ip"            value="$(arg nao_ip)" />
+    <arg name="nao_port"          value="$(arg nao_port)" />
+    <arg name="roscore_ip"        value="$(arg roscore_ip)" />
+    <arg name="network_interface" value="$(arg network_interface)" />
+
+  </include>
+</launch>
