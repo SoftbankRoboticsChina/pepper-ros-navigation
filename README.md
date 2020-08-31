@@ -108,16 +108,17 @@ sudo apt-get install ros-kinetic-pepper-.*
 ## 3.6 安装Pepper Python SDK(可选)
 ### 3.6.1 下载Pepper Python SDK
 ```
-wget https://community-static.aldebaran.com/resources/2.5.10/Python%20SDK/pynaoqi-python2.7-2.5.7.1-linux64.tar.gz .
+wget https://community-static.aldebaran.com/resources/2.5.10/Python%20SDK/pynaoqi-python2.7-2.5.7.1-linux64.tar.gz ~
 
 ```
 ### 3.6.2 解压
 ```
-TODO pynaoqi-python2.7
+cd ~
+tar xvf pynaoqi-python2.7-2.5.7.1-linux64.tar.gz
 ```
 ### 3.6.3 配置环境变量
 ```
-echo "PYTHONPATH=${PYTHONPATH}:~/pynaoqi-python2.7/lib/python2.7/site-packages" >> ~/.bashrc
+echo "PYTHONPATH=${PYTHONPATH}:~/pynaoqi-python2.7-2.5.7.1-linux64/lib/python2.7/site-packages" >> ~/.bashrc
 ```
 ### 3.7 安装Git
 我们需要安装Git从Github中下载一些项目工程
@@ -144,7 +145,7 @@ source ~/.bashrc
 ### 4.3 下载pepper-ros-navigation工程
 ```bash
 cd ~/catkin_ws/src
-git@github.com:SoftbankRoboticsChina/pepper-ros-navigation.git
+git clone https://github.com/SoftbankRoboticsChina/pepper-ros-navigation.git
 ```
 
 ### 4.4 安装项目依赖
