@@ -9,6 +9,10 @@
   * 路径规划和移动控制: [move_base](http://wiki.ros.org/move_base)
 
 有关于这些工具的详细使用或本文档所带源码中各工具的详细参数配置，请参阅ROS官方WiKi链接。
+* Pepper ROS 相关参考资料:
+  * Pepper ROS Wiki: http://wiki.ros.org/pepper
+  * 官方ROS NAOqi_driver说明: http://ros-naoqi.github.io/naoqi_driver/#
+  * Pepper ROS Meta: https://github.com/ros-naoqi/pepper_robot
 
 
 
